@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: #2B2C34;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+
+}
+
+.wrapper{
+    width: 100%;
+    background-color: white;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 95px 15px 95px;
+    background-color: #EFF0F3;
+    border: 1px solid #1138ac;
+    box-shadow: 4px 6px 13px 0 #D7D7D740;
+
+}
+
+.logo{
+    /*border: solid yellow;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo_suptitle{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    color: #001858;
+
+}
+
+.logo_subtitle{
+    font-size: 18px;
+    color: #6246EA;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li a{
+
+    border-radius: 4px;
+    padding: 10px 17px;
+}
+
+nav ul li a:hover{
+    background-color: #6246EA;
+    color: white;
+}
+
+/*main*/
+main{
+    border: solid red;
+    background-color: #EFF0F3;
+    width: 100%;
+    padding: 271px 95px 284px 95px;
+}
+
+.main_data{
+    border: solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_data h1{
+    font-size: 64px;
+    padding-right: 50px;
+}
+
+.main_data p{
+    font-weight: 400;
+    border-left: solid 3px #2B2C34;
+    padding-left: 12px;
+}
+
+.main_data_left{
+    border: solid yellow;
+    max-width: 684px;
+}
+
+.you_email input{
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 21px 25px;
+    width: 70%;
+    margin-right: 20px;
+
+}
+
+button{
+    border: none;
+    max-width: 165px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #6246EA;
+    padding: 20px 23px;
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #EFF0F3;
+}
+
+.main_data_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*section_Browse_the_category*/
+
+section{
+    border: solid #1138ac;
+    /*width: 87%;*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 94px;
+}
+.section_Browse_the_category{
+    background-color: #EFF0F3;
+}
+
+.section_title{
+    border: solid #34ae26;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.section_title h2{
+    font-size: 24px;
+}
+
+.star{
+    margin-left: 12px;
+}
+
+
+.Browse_the_category_cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category_card{
+    border: solid #ae2626;
+    width: 220px;
+    height: 280px;
+    padding-left: 30px;
+    background-color: #fff;
+}
+
+
+
+.category_card:hover{
+    background-color: #6246EA;
+    cursor: pointer;
+    /*color: white;*/
+}
+
+.category_card:hover .cards_title{
+    color: white;
+}
+
+.cards_icon{
+    border: solid #1138ac;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    padding: 12px;
+}
+.cards_title{
+    border: solid #70ef1c;
+    padding: 12px;
+    font-size: 24px;
+    border-radius: 8px;
+
+}
+
+/*Section Featured Article*/
+.section_cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_card{
+    border: solid #9a1313;
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section_card:hover{
+    background-color: #6246EA;
+    cursor: pointer;
+}
+.section_card:hover *{
+    color: white;
+}
+
+/*.section_card:hover h3{*/
+/*    color: white;*/
+/*}*/
+
+/*.section_card:hover h4{*/
+/*    color: white;*/
+/*}*/
+
+/*.section_card:hover p{*/
+/*    color: white;*/
+/*}*/
+
+/*.section_card:hover span{*/
+/*    color: white;*/
+/*}*/
+
+.section_card img{
+    border-radius: 12px;
+}
+
+.section_card h3{
+    font-size: 19px;
+    /*text-align: center;*/
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.section_card_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author_date h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.author_date p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    border: solid;
+    margin-top: 5px;
+}
+
+.author_date p span{
+    padding: 0 10px;
+}
+
+.for_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+/*section_Subscribe*/
+
+.section_Subscribe{
+    background-color: #EFF0F3;
+    display: flex;
+    justify-content: center;
+    /*padding: 58px 0;*/
+}
+
+.subscribe_data{
+    border: solid #34ae26;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscr_for_img{
+    background-color: #FFFFFE;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe{
+    border:solid;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*.subscribe button{*/
+/*    color: #FFFFFE;*/
+/*}*/
+
+.subscribe input::placeholder{
+    color: #C0C0C0;
+}
+
+.subscribe_text{
+    padding: 30px 0;
+}
+
+.subscribe_text h2{
+    font-size: 36px;
+    text-transform: capitalize;
+    /*padding: 30px 0;*/
+}
+
+.subscribe_text p{
+    font-size: 20px;
+    color: #C0C0C0;
+
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    background-color: #E4E5E9;
+    padding: 70px 95px 0 95px;
+}
+
+.footer_data{
+    width: 100%;
+    border: solid #34ae26;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_data_left{
+    border: solid #7c0f23;
+
+}
+
+.footer_logo{
+    justify-content: flex-start;
+}
+
+.footer_data_left p{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer_icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer_data_right{
+    border: solid #2335ac;
+    display: flex;
+    gap: 95px;
+}
+
+.footer_data_right_itt h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.footer_data_right_itt ul li{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_bottom{
+    margin-top: 50px;
+    padding: 26px 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-top: solid #C0C0C0;
+}
